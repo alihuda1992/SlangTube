@@ -94,7 +94,7 @@ $(document).ready(function() {
     var ycall = $.get(
       "https://www.googleapis.com/youtube/v3/search?part=snippet&q=" +
         video +
-        "&type=video&key=AIzaSyDVzPDi4AxLl_99A5L62B3sb4EDjfdKTJE"
+        "&type=video&key=AIzaSyAzXB9riQ32Eco0vUqUXKTcG3Q_DXqgh8c"
     );
     ycall.done(function(response) {
       var videoid = response.items[0].id.videoId;
